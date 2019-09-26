@@ -11,10 +11,10 @@ public class TweetPostAndDelete {
     @Test
     public void postTweetAndDelete()
     {
-        String consumer_key = "I9HliRN46eUM21enxlqZxgd5v";
-        String consumer_Secret = "woVx8oPhBcfyEreONgwBWU14w2XKjhdiFpDcstwTXeleixyOFc";
-        String access_Token = "790217985587748864-0vSYY8y0KpGbQYehqBncavovlZqmeNo";
-        String token_Secret = "XPmgIFQpWX9hVbh1C8R3iGuHwpVMrF8jEhxblguRwFdfs";
+        String consumer_key = "your consumer key";
+        String consumer_Secret = "your consumer secret";
+        String access_Token = "your access token";
+        String token_Secret = "your token secret";
         //key,secret,token,token secret - may expired and give 403
 
         RestAssured.baseURI="https://api.twitter.com/1.1/statuses";
